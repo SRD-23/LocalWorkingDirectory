@@ -1,0 +1,17 @@
+# Валюты и курсы (пример условных курсов)
+rates = {
+    'USD': {'RUB': 80},   # 1 доллар равен 80 рублям
+    'EUR': {'RUB': 90},   # 1 евро равен 90 рублям
+}
+
+# Запрашиваем исходную валюту и сумму
+amount = float(input("Введите сумму: "))
+from_currency = input("Введите исходную валюту (например USD): ").upper()
+to_currency = input("В какую валюту перевести (например RUB): ").upper()
+
+# Проверяем наличие валюты в нашем списке
+if from_currency in rates and to_currency in rates[from_currency]:
+    converted_amount = amount * rates[from_currency][to_currency]
+    print(f"{amount} {from_currency} равняется {converted_amount:.2f} {to_currency}")
+else:
+    print("Одна из указанных валют отсутствует.")

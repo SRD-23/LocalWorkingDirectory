@@ -1,0 +1,12 @@
+# Цена товара и процент скидки
+price = float(input("Введите цену товара: "))
+discount_percentage = float(input("Введите скидку (%): "))
+
+# Вычисляем размер скидки
+discount_amount = price * discount_percentage / 100
+
+# Итоговая цена после скидки
+final_price = price - discount_amount
+
+# Печать результата
+print(f"Скидка составляет: {discount_amount:.2f}. Итоговая цена: {final_price:.2f}")
