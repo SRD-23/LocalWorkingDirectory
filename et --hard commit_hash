@@ -1,0 +1,29 @@
+[33mcommit 2f7782515d9c407915607bad0be3c2fb99d22c33[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: SRD-23 <0409-z@mail.ru>
+Date:   Mon Oct 27 12:11:34 2025 +0300
+
+    Работа
+
+[33mcommit bf0d33d6ce22cbc7cd4eb92c5d8bb98ecdb22385[m[33m ([m[1;31morigin/dev[m[33m, [m[1;32mdev[m[33m)[m
+Author: SRD-23 <0409-z@mail.ru>
+Date:   Mon Oct 27 11:42:42 2025 +0300
+
+    Добавлен новый файл в ветке dev
+
+[33mcommit ea6fc3da2cc3319ca9978665a37838fc28a2f8f1[m
+Author: SRD-23 <0409-z@mail.ru>
+Date:   Mon Oct 27 11:36:40 2025 +0300
+
+    Добавлены изменения в file2.txt
+
+[33mcommit 676e7951039c4809bbc1fd37af255e20cb207286[m
+Author: SRD-23 <0409-z@mail.ru>
+Date:   Mon Oct 27 11:29:20 2025 +0300
+
+    Добавлена дополнительная информация в file1.txt
+
+[33mcommit 9aed975fb5a97ca1bbac34da0233913adc6db5fc[m
+Author: SRD-23 <0409-z@mail.ru>
+Date:   Mon Oct 27 11:17:38 2025 +0300
+
+    Добавлены три файла в person1
